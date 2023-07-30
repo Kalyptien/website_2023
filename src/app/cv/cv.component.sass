@@ -1,0 +1,216 @@
+@font-face
+    font-family: 'Coves'
+    src: url("/assets/font/Coves Light.otf") format("opentype")
+    font-weight: 300
+    font-style: normal
+
+@font-face
+    font-family: 'Cove'
+    src: url("/assets/font/Coves Light.otf") format("opentype")
+    font-weight: 200
+
+@font-face
+    font-family: 'Coves'
+    src: url("/assets/font/Coves Bold.otf") format("opentype")
+    font-weight: 700
+    font-weight: bold
+
+@font-face
+    font-family: 'Coves'
+    src: url("/assets/font/Coves Bold.otf") format("opentype")
+    font-weight: 500
+    font-weight: normal
+
+#webgl
+    position: fixed
+    top: 0
+    left: 0
+    outline: none
+    z-index: 10
+
+.section
+    font-family: 'Coves', sans-serif
+    align-items: center
+    text-align: center
+    height: 100vh
+    position: relative
+    text-transform: uppercase
+    background-image: url("/assets/img/backgroundWhite.png")
+
+.section:nth-child(odd)
+    background-image: url("/assets/img/backgroundBlack.jpg")
+    color: white
+    box-shadow: none
+
+h1
+    font-family: 'Coves', sans-serif
+    font-weight: bold
+    font-size: 5em
+    padding-top: 1%
+
+h2
+    font-family: 'Coves', sans-serif
+    font-weight: 500
+    font-size: 4em
+    padding-top: 1%
+
+h3
+    font-family: 'Coves', sans-serif
+    font-size: 2em
+    padding-top: 0.5%
+
+h4
+    font-family: 'Coves', sans-serif
+    font-size: 1.5em
+    padding-top: 0.1%
+    font-style: italic
+
+.blackBG
+        content: " "
+        position: absolute
+        background-color: rgba(10,10,10, 0.3)
+        z-index: auto
+        top: 5vh
+        left: 32.5vw
+        width: 35%
+        height: 90%
+
+.whiteBG
+        content: " "
+        position: absolute
+        background-color: rgba(150, 150, 150, 0.3)
+        z-index: auto
+        top: 5vh
+        left: 32.5vw
+        width: 35%
+        height: 90%
+
+#header
+    img
+        width: 40vh
+        padding-top: 4%
+    section
+        position: relative
+        justify-content: center
+    .whiteBG
+        content: " "
+        position: absolute
+        z-index: auto
+        top: 49vh
+        left: 31.5vw
+        width: 35%
+        height: 35%
+
+#prog
+    h2
+        padding-top: 5%
+        position: inherit
+        z-index: 10
+    table
+        position: absolute
+        z-index: 9
+        width: 75%
+        height: 70%
+        top: 20vh
+        left: 10vw
+        font-size: 1.7em
+    .blackBG
+        content: " "
+        position: absolute
+        background-color: rgba(0.1,0.1,0.1, 0.3)
+        z-index: auto
+        top: 5vh
+        left: 10vw
+        width: 80%
+        height: 90%
+
+#diplome
+    h2
+        padding-top: 5%
+        position: inherit
+        z-index: 10
+    section
+        position: relative
+        right: 17.5%
+        margin-top: 5%
+        justify-content: center
+        h3
+            font-size: 3em
+        h4
+            font-size: 1.5em
+    section:nth-child(odd)
+        left: 17.5%
+
+#projet
+    h2
+        padding-top: 5%
+        position: inherit
+        z-index: 10
+    section
+        position: relative
+        right: 17.5%
+        margin-top: 2%
+        justify-content: center
+        h3
+            font-size: 3em
+        h4
+            font-size: 1.5em
+            a
+                img
+                    width: 2%
+                    filter: brightness(0.8)
+                img:hover
+                    filter: brightness(1)
+    section:nth-child(odd)
+        left: 17.5%
+
+#pro
+    h2
+        padding-top: 5%
+        position: inherit
+        z-index: 10
+    section
+        position: relative
+        right: 17.5%
+        margin-top: 5%
+        justify-content: center
+        h3
+            font-size: 3em
+        h4
+            font-size: 1.5em
+            a
+                text-decoration: none
+                color: gray
+            a:hover
+                color: black
+    section:nth-child(odd)
+        left: 17.5%
+
+#hobbies
+    justify-content: space-around	
+    h2
+        padding-top: 5%
+        position: inherit
+        z-index: 10
+    section
+        position: relative
+        right: 17.5%
+        margin-top: 3%
+        justify-content: center
+    section:nth-child(odd)
+        left: 17.5%
+
+#footer
+    h2
+        padding-top: 5%
+        position: inherit
+        z-index: 10
+    #logo
+        display: flex
+        justify-content: space-around
+        margin-top: 10%
+        img
+            width: 30vh
+            filter: brightness(0.9)
+        img:hover
+            filter: brightness(1)
