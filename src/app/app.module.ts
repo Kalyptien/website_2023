@@ -10,6 +10,7 @@ import { FooterComponent } from './PF_component/footer/footer.component';
 import { ProgComponent } from './PF_component/prog/prog.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CVComponent } from './cv/cv.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CVComponent } from './cv/cv.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

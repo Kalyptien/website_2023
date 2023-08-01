@@ -4,6 +4,8 @@ import { last } from 'rxjs';
 import * as THREE from 'three'
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
 
+//import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+
 let scrollY = window.scrollY
 window.addEventListener('scroll', () =>
 {
@@ -21,7 +23,6 @@ export class CVComponent {
   age = Math.floor((this.timeDiff / (1000 * 3600 * 24))/365.25)
 
   ngOnInit() {
-
     const sizes = {
       width: window.innerWidth,
       height: window.innerHeight
@@ -212,4 +213,11 @@ export class CVComponent {
 
       tick()
   }
+
+  /*ngAfterViewInit() {
+    const login = document.getElementById('webgl') as HTMLCanvasElement
+    if(login != null){
+      login.style.visibility = "collapse"
+    }
+  }*/
 }
