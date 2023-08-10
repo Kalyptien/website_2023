@@ -3,11 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CVComponent } from './cv/cv.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 const routes: Routes = [
   { path: 'curriculum', component: CVComponent },
   { path: 'portfolio', component: PortfolioComponent },
-  { path: '', redirectTo: '/', pathMatch: 'full' }
+  { path: '', component: WelcomeComponent }
 ];
 
 @NgModule({

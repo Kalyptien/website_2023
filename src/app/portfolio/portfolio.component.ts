@@ -12,7 +12,7 @@ import HeaderScene from './ThreeJS/HeaderScene';
   styleUrls: ['./portfolio.component.sass']
 })
 export class PortfolioComponent {
-  ngOnInit() {
+  /*ngOnInit() {
     //Sizes
 
       const width = window.innerWidth;
@@ -61,5 +61,5 @@ export class PortfolioComponent {
       }
 
       tick()
-  }
+  }*/
 }

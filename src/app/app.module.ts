@@ -11,6 +11,7 @@ import { ProgComponent } from './PF_component/prog/prog.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { CVComponent } from './cv/cv.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     ProgComponent,
     PortfolioComponent,
-    CVComponent
+    CVComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,

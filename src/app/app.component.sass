@@ -1,0 +1,35 @@
+@font-face
+    font-family: 'Coves'
+    src: url("/assets/font/Coves Bold.otf") format("opentype")
+    font-weight: 700
+    font-weight: bold
+
+@-webkit-keyframes fade-in
+  from 
+    opacity: 0
+  to
+    opacity: 1
+
+#router-outlet
+    transition: opacity 3s
+
+#main
+    font-family: 'Coves', sans-serif
+    nav
+        position: sticky
+        z-index: 100
+        padding: 1em
+        background-color: black
+        display: flex
+        justify-content: space-around
+        text-align: center
+        li
+            font-size: 1.2em
+            text-decoration: none
+            list-style-type: none
+            a
+                text-decoration: none
+                color: white
+                 text-align: center
+            a:hover
+                text-shadow: 0 0 5px white

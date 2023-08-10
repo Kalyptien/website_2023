@@ -35,10 +35,12 @@
     height: 100vh
     position: relative
     text-transform: uppercase
-    background-image: url("/assets/img/backgroundWhite.png")
+    background-image: url("/assets/img/backgroundWhite.jpg")
+    -webkit-text-stroke: 0.5px gray
 
 .section:nth-child(odd)
     background-image: url("/assets/img/backgroundBlack.jpg")
+    -webkit-text-stroke: 0.5px black
     color: white
     box-shadow: none
 
@@ -46,7 +48,7 @@ h1
     font-family: 'Coves', sans-serif
     font-weight: bold
     font-size: 5em
-    padding-top: 1%
+    padding-top: 2%
 
 h2
     font-family: 'Coves', sans-serif
@@ -218,3 +220,176 @@ a
             filter: brightness(0.9)
         img:hover
             filter: brightness(1)
+    a
+        text-decoration: none
+        color: gray
+    a:hover
+        color: black
+    #homepage
+        position: relative
+        top: 100px
+
+@media screen and (max-width: 900px) and (min-width: 600px)
+
+    canvas
+        display: none
+
+    h1
+        font-size: 4em
+        padding-top: 15%
+
+    h2
+        font-size: 3em
+        padding-top: 5%
+
+    h3
+        font-size: 1.5em
+        padding-top: 2%
+
+    h4
+        font-size: 1em
+        padding-top: 1%
+
+    #prog
+        h2
+            padding-top: 10%
+
+    #diplome
+        h2
+            padding-top: 10%
+        section
+            margin-top: 10%
+            right: 0%
+            h3
+                font-size: 2em
+            h4
+                font-size: 1.5em
+        section:nth-child(odd)
+            left: 0%
+
+    #projet
+        h2
+            padding-top: 10%
+        section
+            margin-top: 4%
+            right: 0%
+            h3
+                font-size: 2em
+            h4
+                font-size: 1.5em
+                a
+                    img
+                        width: 5%
+        section:nth-child(odd)
+            left: 0%
+
+    #pro
+        h2
+            padding-top: 10%
+        section
+            margin-top: 10%
+            right: 0%
+            h3
+                font-size: 2em
+            h4
+                font-size: 1.5em
+        section:nth-child(odd)
+            left: 0%
+
+    #hobbies	
+        h2
+            padding-top: 10%
+        section
+            margin-top: 7%
+        section:nth-child(odd)
+            left: 17.5%
+
+    #footer
+        h2
+            padding-top: 10%
+        #logo
+            margin-top: 20%
+            img
+                width: 25vh
+
+@media screen and (max-width: 600px)
+    canvas
+        display: none
+
+    h1
+        font-size: 4em
+        padding-top: 10%
+
+    h2
+        font-size: 3em
+        padding-top: 7%
+
+    h3
+        font-size: 1.5em
+        padding-top: 5%
+
+    h4
+        font-size: 1em
+        padding-top: 1%
+
+    #prog
+        h2
+            padding-top: 15%
+
+    #diplome
+        h2
+            padding-top: 10%
+        section
+            margin-top: 10%
+            right: 0%
+            h3
+                font-size: 1.7em
+            h4
+                font-size: 1.3em
+        section:nth-child(odd)
+            left: 0%
+
+    #projet
+        h2
+            padding-top: 15%
+        section
+            margin-top: 3%
+            right: 0%
+            h3
+                font-size: 1.7em
+            h4
+                font-size: 1.3em
+                a
+                    img
+                        width: 7%
+        section:nth-child(odd)
+            left: 0%
+
+    #pro
+        h2
+            padding-top: 15%
+        section
+            margin-top: 10%
+            right: 0%
+            h3
+                font-size: 1.7em
+            h4
+                font-size: 1.3em
+        section:nth-child(odd)
+            left: 0%
+
+    #hobbies	
+        h2
+            padding-top: 15%
+        section
+            margin-top: 7%
+        section:nth-child(odd)
+            left: 17.5%
+
+    #footer
+        h2
+            padding-top: 15%
+        #logo
+            margin-top: 25%
+            img
+                width: 25vh
